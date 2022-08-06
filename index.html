@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 35px;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    div.topimgtxt {
+      background-color: rgb(237, 235, 235);
+      padding: 20px;
+      opacity: 0.8;
+    }
+
+    @media screen and (min-width: 601px) {
+      div.topimgtxt {
+        font-size: 30px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      div.topimgtxt {
+        font-size: 5px;
+      }
+    }
+
+
+    .topimgtxt {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .mySlides {
+      display: none;
+    }
+  </style>
+
+  <title>BI-Neuro Collaboration</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button"><b>BI-Neuro</b> Collaboration</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <div class="w3-dropdown-hover">
+          <button class="w3-button w3-white w3-wide w3-padding w3-card">
+            Research Themes
+          </button>
+          <div class="w3-dropdown-content">
+            <a href="#research" class="w3-bar-item w3-button">
+              Experimental Investigation
+            </a>
+            <a href="#research" class="w3-bar-item w3-button">
+              Theory
+            </a>
+            <a href="#research" class="w3-bar-item w3-button">
+              Outreach
+            </a>
+          </div>
+        </div>
+        <a href="#videos" class="w3-bar-item w3-button">Videos</a>
+        <a href="#conf" class="w3-bar-item w3-button">Conferences</a>
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#resources" class="w3-bar-item w3-button">Resources</a>
+        <a href="#support" class="w3-bar-item w3-button">Support</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <img class="w3-image" src="img/mbi_conf_ebook_cover_1600x800.jpg" alt="Architecture" width="1500" height="600">
+    <div class="topimgtxt" style="text-align: center">
+      <h1 class="w3-text-black" style="font-size:2vw">
+        <b>Bhaktivedanta Institute - Neuro</b>
+        <h1 class="w3-text-black" style="font-size:2vw">
+          Collaboration
+    </div>
+  </header>
+
+  <!-- Page content -->
+  <div class="w3-content w3-padding" style="max-width:1564px">
+
+    <!-- Research Section -->
+    <div class="w3-container w3-padding-32" id="research">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+        Research Themes
+      </h3>
+    </div>
+
+    <div class="w3-row-padding">
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">
+            Experimental Investigations on the Mind-Brain Interface
+          </div>
+          <img src="img/mbi.jpg" alt="Mind-Brain Interface" style="width:100%">
+          <p style="text-align:justify">
+            EEG, imaging, bio experiments.
+          </p>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">
+            Theory of Matter, Mind, and Consciousness
+          </div>
+          <img src="img/theory.jpg" alt="Theory" style="width:100%">
+          <p style="text-align:justify">
+            Very important. Towards an expanded understanding of mind and
+            consciousness.
+          </p>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">
+            Science and Philosophy Outreach
+          </div>
+          <img src="img/outreach.jpg" alt="Outreach" style="width:100%">
+          <p style="text-align:justify">
+            Also important.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Videos Section -->
+    <div class="w3-container w3-padding-32" id="videos">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Videos</h3>
+    </div>
+
+    <div class="w3-row-padding">
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <iframe width="485" height="330" src="https://www.youtube.com/embed/qmHS-S2yfI4"
+            title="Akhandadhi Das: TEDx Talk" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <p style="text-align:justify">
+            Caption/Description.
+          </p>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <iframe width="485" height="330"
+            src="https://www.youtube.com/embed/videoseries?list=PL-psFM-VOg3sLbBP4sHor2LeA2DyKuQU8"
+            title="Atma Paradigm Lectures" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          </iframe>
+          <p style="text-align:justify">
+            Caption/Description.
+          </p>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <iframe width="485" height="330" src="https://www.youtube.com/embed/" title="TBD" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          </iframe>
+          <p style="text-align:justify">
+            Caption/Description.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Conferences Section -->
+    <div class="w3-container w3-padding-32" id="conf">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Conferences</h3>
+    </div>
+
+    <div class="w3-row-padding">
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">
+            December 2021, Gainesville, FL
+          </div>
+          <img src="img/mbi_conf.jpg" alt="Mind-Brain Interface Conference" style="width:100%">
+          <p style="text-align:justify">
+            link is this: https://drive.google.com/file/d/1CrqWxJYAapWpvSb7lC5JEoEdWcZHC1cw/view?usp=sharing
+          </p>
+        </div>
+      </div>
+      <div class="w3-col l4 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">
+            Upcoming
+          </div>
+          <img src="img/conf_poster.png" alt="Theory" style="width:100%">
+          <p style="text-align:justify">
+            concept of sublte bvody and meditation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32" id="about">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+      <p>
+        The BI-Neuro Collaboration is a group of researchers and students from.
+        We discussed whether Indian
+        Philosophies could help address some of the
+        open questions, and this would be an avenue
+        to introduce these Eastern ideas (which posit
+        that the mind and consciousness have
+        existences beyond the physical body) into
+        mainstream research.
+      </p>
+      <div class="w3-container w3-padding-32 w3-center">
+        <img class="w3-image" src="img/bi_team.png" alt="Part of the BI-Neuro Team at the December 2021 MBI Conference"
+          width="auto">
+        <br>
+        The Mind-Brain Interface conference, held at the BI House in Gainesville, FL, in December 2021.
+      </div>
+    </div>
+
+
+    <!-- Resources Section -->
+    <div class="w3-container w3-padding-32" id="resources">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Resources</h3>
+    </div>
+
+    <div class="w3-row-padding w3-grayscale w3-center">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="" alt="" style="max-width: 100%; max-height: 100%; display:block; margin:auto;">
+        <h3>pub </h3>
+        <p>Test 1<br>Test 1</p>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="" alt="" style="max-width: 100%; max-height: 100%; display:block; margin:auto;">
+        <h3>Res 2</h3>
+        <p>Test 2<br>Vid link: https://www.youtube.com/watch?v=9D4nJg7h_RQ</p>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="" alt="" style="max-width: 100%; max-height: 100%; display:block; margin:auto;">
+        <h3>Res 3</h3>
+        <p>Test 3<br>Test 3</p>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="" alt="" style="max-width: 100%; max-height: 100%; display:block; margin:auto;">
+        <h3>Res 4</h3>
+        <p>Test 4<br>Test 4</p>
+      </div>
+    </div>
+
+    <!-- Donation Section -->
+    <div class="w3-container w3-padding-32" id="support">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Support</h3>
+      <p>Hello</p>
+
+      <form action="https://www.paypal.com/donate" method="post" target="_top"> 
+        <!-- Identify your business so that you can collect the payments. --> <input type="hidden" name="business"
+          value="donations@kcparkfriends.org"> 
+        <!-- Specify details about the contribution --> <input type="hidden" name="no_recurring" value="0"> <input
+          type="hidden" name="item_name" value="Friends of the Park"> <input type="hidden" name="item_number"
+          value="Fall Cleanup Campaign"> <input type="hidden" name="currency_code" value="USD"> 
+        <!-- Display the payment button. --> <input type="image" name="submit"
+          src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate"> <img alt="" width="1"
+          height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+      </form>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-32" id="contact">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+      <p>
+        Email: kmooley@caltech.edu (Kunal Mooley, BI-Neuro) or info@bihstudies.org (BIHS)
+      </p>
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="w3-center">
+    <p>Copyright © 2022 BI-Neuro Collaboration | Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+        title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+
+</body>
+
+</html>
